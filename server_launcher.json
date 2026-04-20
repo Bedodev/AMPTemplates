@@ -1,7 +1,7 @@
 {
   "Server": {
     "SelectedServerTypeValue": "MultiplayerServerListSessionType_RANKED",
-    "ServerName": "Bedodev's EVO Server",
+    "ServerName": "Assetto Corsa EVO Server - Powered by AMP",
     "MaxPlayers": 5,
     "MaxPlayersLimit": 5,
     "TcpPort": 9700,
