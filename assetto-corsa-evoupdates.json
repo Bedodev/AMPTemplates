@@ -1,13 +1,25 @@
 [
     {
-        "UpdateStageName": "",
+        "UpdateStageName": "SteamCMD Server Download",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "SteamCMD",
         "UpdateSourceData": "4564210",
         "UpdateSourceArgs": "3058630",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
+        "ForceDownloadPlatform": "Windows",
+        "DeleteAfterExtract": false,
+        "OneShot": false,
+        "SkipOnFailure": false
+    },
+    {
+        "UpdateStageName": "Config File Download",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://raw.githubusercontent.com/Bedodev/AMPTemplates/refs/heads/main/server_launcher.json",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": false,
         "OneShot": false
     }
 ]
