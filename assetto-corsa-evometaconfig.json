@@ -1,0 +1,7 @@
+[
+    {
+        "ConfigFile": "server_launcher.json",
+        "ConfigType": "json",
+        "AutoMap": true
+    }
+]
